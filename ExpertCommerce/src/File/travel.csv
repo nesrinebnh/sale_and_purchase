@@ -1,0 +1,5 @@
+name,Air line,Flying from,Flying to,Departure date,Return date,Adult,Children,Departure time,Return time,Ticket class,Trip Type,overnight flights,price
+Algeria-Paris,Air France,Algeria,Paris,5/28/2020,6/17/2020,1,0,14:06,18:06,Business,return,no,15000
+Algeria-Turkish,Air Turkish,Algeria,Turkish,5/28/2020,6/17/2020,1,0,14:06,18:06,Economy,direct,yes,25000
+Paris-Italie,Air France,Paris,Italie,5/29/2020,6/30/2020,2,5,17:40,18:06,first,return,no,45000
+UK-US,American Airlines,UK,US,5/28/2020,7/16/2020,2,3,17:17,14:40,Economy,direct,yes,14000

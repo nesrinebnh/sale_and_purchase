@@ -1,0 +1,3 @@
+yes/price=5000
+yes/price=5000,CPU=Intel Core i5 1.8GHz,price=5000
+no/price=5000,CPU=Intel Core i5 1.8GHz,price=5000,CPU=Intel Core i5 1.8GHz,GPU=Intel Iris Pro Graphics,price=5000

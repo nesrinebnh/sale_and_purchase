@@ -1,0 +1,18 @@
+yes/Mark=null,Model=null,CPU=null,Screen=null,Fingerprint=null,RAM=,ROM=,Baterry=,Size=,price=32548
+yes/Model=null,Mark=null,CPU=null,Screen=null,Fingerprint=null,RAM=,ROM=,Baterry=,Size=,price=32548
+yes/Model=null,Mark=null,CPU=null,Screen=null,Fingerprint=null,RAM=,ROM=,Baterry=,Size=,price=32548,Model=null,Mark=null,CPU=null,Screen=null,Fingerprint=null,RAM=,ROM=,Baterry=,Size=,price=54701
+yes/Model=null,Mark=null,CPU=null,Screen=null,Fingerprint=null,RAM=,ROM=,Baterry=,Size=,price=32548,Model=null,Mark=null,CPU=null,Screen=null,Fingerprint=null,RAM=,ROM=,Baterry=,Size=,price=54701,Model=null,Mark=null,CPU=null,Screen=null,Fingerprint=null,RAM=,ROM=,Baterry=,Size=,price=54702
+yes/Model=null,Mark=null,CPU=null,Screen=null,Fingerprint=null,RAM=,ROM=,Baterry=,Size=,price=32548,Model=null,Mark=null,CPU=null,Screen=null,Fingerprint=null,RAM=,ROM=,Baterry=,Size=,price=54701,Model=null,Mark=null,CPU=null,Screen=null,Fingerprint=null,RAM=,ROM=,Baterry=,Size=,price=54702,Model=null,Mark=Samsung,CPU=null,Screen=null,Fingerprint=null,RAM=,ROM=,Baterry=,Size=,price=54702
+yes/Model=null,Mark=null,CPU=null,Screen=null,Fingerprint=null,RAM=,ROM=,Baterry=,Size=,price=32548,Model=null,Mark=null,CPU=null,Screen=null,Fingerprint=null,RAM=,ROM=,Baterry=,Size=,price=54701,Model=null,Mark=null,CPU=null,Screen=null,Fingerprint=null,RAM=,ROM=,Baterry=,Size=,price=54702,Model=null,Mark=Samsung,CPU=null,Screen=null,Fingerprint=null,RAM=,ROM=,Baterry=,Size=,price=54702,Model=null,Mark=Apple,CPU=null,Screen=null,Fingerprint=null,RAM=,ROM=,Baterry=,Size=,price=54702
+no/Model=Galaxy S8,price=10000
+yes/price=5000000
+no/price=100
+yes/Mark=Samsung,price=500000
+no/Mark=Samsung,price=500000,Mark=Samsung,price=5
+no/Mark=Samsung,price=500000,Mark=Samsung,price=5,Mark=Samsung,price=5
+no/Mark=Samsung,price=500000,Mark=Samsung,price=5,Mark=Samsung,price=5,Mark=Samsung,price=5
+no/Mark=Samsung,price=5
+yes/price=5000000
+no/price=5000000,price=50
+yes/price=5000000,price=50,price=5000000
+yes/price=5000000

@@ -1,0 +1,5 @@
+admin/admin 123456 admin
+buyer/bounouhnesrine@gmail.com 123456 nesrinebnh
+seller/aliouf@gmail.com 123456 Cars
+seller/bounouhnesrine@gmail.com 123456 Smartphone
+seller/salmasedine@gmail.com 123456 TravelAgency

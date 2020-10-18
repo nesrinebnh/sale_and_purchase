@@ -1,0 +1,21 @@
+no/Departure date=2020-05-28,Return date=2020-06-17
+no/Departure date=2020-05-28,Return date=2020-06-17
+yes/Departure date=2020-06-22,Return date=2020-06-26
+yes/Departure date=2020-06-22,Return date=2020-06-26,Departure date=2020-06-22,Return date=2020-06-26,price=570500
+no/Departure date=2020-06-22,Return date=2020-06-26,Departure date=2020-06-22,Return date=2020-06-26,price=570500,Overnight=yes,Departure date=2020-06-22,Return date=2020-06-26,price=570500
+yes/Departure date=2020-06-22,Return date=2020-06-26,Departure date=2020-06-22,Return date=2020-06-26,price=570500,Overnight=yes,Departure date=2020-06-22,Return date=2020-06-26,price=570500,Overnight=no,Departure date=2020-06-22,Return date=2020-06-26,price=570500
+no/Departure date=2020-06-22,Return date=2020-06-26,Departure date=2020-06-22,Return date=2020-06-26,price=570500,Overnight=yes,Departure date=2020-06-22,Return date=2020-06-26,price=570500,Overnight=no,Departure date=2020-06-22,Return date=2020-06-26,price=570500,Trip type=direct,Overnight=no,Departure date=2020-06-22,Return date=2020-06-26,price=570500
+yes/Departure date=2020-06-22,Return date=2020-06-26,Departure date=2020-06-22,Return date=2020-06-26,price=570500,Overnight=yes,Departure date=2020-06-22,Return date=2020-06-26,price=570500,Overnight=no,Departure date=2020-06-22,Return date=2020-06-26,price=570500,Trip type=direct,Overnight=no,Departure date=2020-06-22,Return date=2020-06-26,price=570500,Trip type=return,Overnight=no,Departure date=2020-06-22,Return date=2020-06-26,price=570500
+no/Departure date=2020-06-22,Return date=2020-06-26,Departure date=2020-06-22,Return date=2020-06-26,price=570500,Overnight=yes,Departure date=2020-06-22,Return date=2020-06-26,price=570500,Overnight=no,Departure date=2020-06-22,Return date=2020-06-26,price=570500,Trip type=direct,Overnight=no,Departure date=2020-06-22,Return date=2020-06-26,price=570500,Trip type=return,Overnight=no,Departure date=2020-06-22,Return date=2020-06-26,price=570500,Ticket class=first,Trip type=return,Overnight=no,Departure date=2020-06-22,Return date=2020-06-26,price=570500
+yes/Departure date=2020-06-22,Return date=2020-06-26,Departure date=2020-06-22,Return date=2020-06-26,price=570500,Overnight=yes,Departure date=2020-06-22,Return date=2020-06-26,price=570500,Overnight=no,Departure date=2020-06-22,Return date=2020-06-26,price=570500,Trip type=direct,Overnight=no,Departure date=2020-06-22,Return date=2020-06-26,price=570500,Trip type=return,Overnight=no,Departure date=2020-06-22,Return date=2020-06-26,price=570500,Ticket class=first,Trip type=return,Overnight=no,Departure date=2020-06-22,Return date=2020-06-26,price=570500,Ticket class=Business,Trip type=return,Overnight=no,Departure date=2020-06-22,Return date=2020-06-26,price=570500
+yes/name=Algeria-Turkish
+yes/name=Algeria-Turkish,name=Algeria-Turkish
+yes/price=5000000
+yes/price=5000000
+yes/price=5000000
+no/price=5000000,price=500
+no/price=5000000,price=500,price=500
+no/price=100
+yes/Departure date=2020-06-22
+no/Departure date=2020-06-22,Departure date=2020-06-22,price=500000
+yes/Departure date=2020-06-22,Departure date=2020-06-22,price=500000,Departure date=2020-06-22,price=5000000

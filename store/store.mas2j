@@ -1,0 +1,18 @@
+MAS store {
+
+	infrastructure: Centralised
+
+	environment: StoreEnv
+
+	agents:
+		central;
+		phones;
+		cars;
+		buses;
+		trucks;
+		motocycles;
+		travel;
+		
+	aslSourcePath:
+		"src/asl";
+}

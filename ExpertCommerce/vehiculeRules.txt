@@ -1,0 +1,17 @@
+FW: if wheels=4 and price>27795 then vehiculeType=FW
+MotorCycle: if wheels=2 and price>7499 then vehiculeType=motorcycle
+Car: if vehiculeType=FW and passengers<10 and weight<3000 then vehiculeCategory=car
+Bus: if vehiculeType=FW and passengers>13 and weight>30000 then vehiculeCategory=bus
+Truck: if vehiculeType=FW and passengers<5 and weight>30000 then vehiculeCategory=truck
+SuperCar: if vehiculeCategory=car and doors=2 and fuel=premium and hp>350 and categ=perform then vehicule=super_car
+Electric: if vehiculeCategory=car and fuel=electric and categ=hatchback then vehicule=electric
+Economic: if vehiculeCategory=car and fuel=reg and categ=flexfuel then vehicule=econom
+Luxury: if vehiculeCategory=car and fuel=premium and doors=4 and categ=lux then vehicule=lux
+HugeBus: if vehiculeCategory=bus and size=large then vehicule=hugebus
+OrdinaryBus: if vehiculeCategory=bus and size=medium then vehicule=ordinarybus
+MiniBus: if vehiculeCategory=bus and size=small then vehicule=minibus
+TractorTrailer: if vehiculeCategory=truck and trailer=yes then vehicule=tractor_trailer
+PickUp: if vehiculeCategory=truck and cargo_area=yes then vehicule=pickup
+Scooter: if vehiculeType=motorcycle and weight_class=light then vehicule=scooter
+Sport: if vehiculeType=motorcycle and weight_class=mid then vehicule=sport
+Cruiser: if vehiculeType=motorcycle and weight_class=heavy then vehicule=cruiser

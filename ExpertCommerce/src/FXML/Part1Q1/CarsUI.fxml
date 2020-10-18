@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXListView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="700.0" maxWidth="800.0" minHeight="700.0" minWidth="800.0" prefHeight="700.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML.Part1Q1.CarsController">
+   <center>
+      <AnchorPane prefHeight="673.0" prefWidth="572.0" style="-fx-background-color: #7160DC;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="103.0" fitWidth="114.0" layoutX="244.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../asset/communications.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="114.0" fitWidth="156.0" layoutX="286.0" layoutY="533.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../asset/travel2.png" />
+               </image>
+            </ImageView>
+            <GridPane layoutX="13.0" layoutY="51.0" prefHeight="475.0" prefWidth="547.0">
+              <columnConstraints>
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="332.0" minHeight="10.0" prefHeight="266.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="232.0" minHeight="10.0" prefHeight="209.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <GridPane GridPane.rowIndex="1">
+                    <columnConstraints>
+                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="100.0" minHeight="10.0" prefHeight="71.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="173.0" minHeight="10.0" prefHeight="138.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Result">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Text>
+                        <TextArea fx:id="result" editable="false" prefHeight="97.0" prefWidth="380.0" GridPane.rowIndex="1" />
+                     </children>
+                  </GridPane>
+                  <GridPane prefHeight="396.0" prefWidth="562.0">
+                     <columnConstraints>
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints maxHeight="175.0" minHeight="10.0" prefHeight="48.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="321.0" minHeight="10.0" prefHeight="218.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <TextArea fx:id="rules" editable="false" prefHeight="394.0" prefWidth="200.0" GridPane.rowIndex="1" />
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Rules">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Knowledge Base" GridPane.columnIndex="1">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Text>
+                        <TextArea fx:id="base" editable="false" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                     </children>
+                  </GridPane>
+               </children>
+            </GridPane>
+            <ImageView fitHeight="101.0" fitWidth="150.0" layoutX="36.0" layoutY="539.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../asset/b.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="126.0" fitWidth="134.0" layoutX="128.0" layoutY="506.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../asset/ok2.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="114.0" fitWidth="156.0" layoutX="232.0" layoutY="562.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../asset/transport2.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="exit" layoutX="477.0" layoutY="7.0" mnemonicParsing="false" onAction="#exit" prefHeight="30.0" prefWidth="83.0" style="-fx-background-color: #ffffff;" text="Exit" textFill="#7160dc">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+   <left>
+      <AnchorPane prefHeight="666.0" prefWidth="228.0" style="-fx-background-color: #9589DF;" BorderPane.alignment="CENTER">
+         <children>
+            <GridPane layoutX="2.0" layoutY="21.0" prefHeight="547.0" prefWidth="223.0">
+              <columnConstraints>
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="117.0" minHeight="0.0" prefHeight="23.0" valignment="CENTER" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="276.0" minHeight="10.0" prefHeight="222.0" valignment="CENTER" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="155.0" minHeight="10.0" prefHeight="71.0" valignment="CENTER" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="184.0" minHeight="0.0" prefHeight="64.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="171.0" minHeight="0.0" prefHeight="38.0" valignment="CENTER" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="189.0" minHeight="10.0" prefHeight="53.0" valignment="CENTER" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="189.0" minHeight="10.0" prefHeight="41.0" valignment="CENTER" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="189.0" minHeight="10.0" prefHeight="40.0" valignment="CENTER" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Knowledge Base">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <GridPane prefHeight="146.0" prefWidth="216.0" GridPane.rowIndex="1">
+                    <columnConstraints>
+                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="101.0" minHeight="10.0" prefHeight="36.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="256.0" minHeight="10.0" prefHeight="164.0" valignment="TOP" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Variable name">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <JFXListView fx:id="listVariable" onMouseClicked="#valueVariable" prefHeight="156.0" prefWidth="128.0" style="-fx-selection-bar: #e8d8f3; -fx-focus-color: #000000;" GridPane.rowIndex="1" />
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Value" GridPane.columnIndex="1">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <ChoiceBox fx:id="choice" prefWidth="150.0" style="-fx-focus-color: #7160DC; -fx-background-color: #7160DC;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </ChoiceBox>
+                     </children>
+                  </GridPane>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" GridPane.rowIndex="2" />
+                  <TextArea editable="false" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #44106e;" stylesheets="@../../application/application.css" text="Click on the list item to diplay choices in the choicebox" wrapText="true" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextArea>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Goal" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="knows" mnemonicParsing="false" onAction="#addKnowledge" style="-fx-background-color: #7160DC;" text="add to the knowledge base" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <ChoiceBox fx:id="goal" prefWidth="150.0" style="-fx-background-color: #7160DC; -fx-focus-color: #7160DC;" GridPane.rowIndex="5" />
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="chain type" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <ChoiceBox fx:id="type" prefWidth="150.0" style="-fx-background-color: #7160DC; -fx-focus-color: #7160DC;" GridPane.rowIndex="7" />
+               </children>
+            </GridPane>
+            <Button fx:id="search" layoutX="34.0" layoutY="593.0" mnemonicParsing="false" onAction="#fetchData" prefHeight="25.0" prefWidth="160.0" style="-fx-background-color: #7160DC;" text="Search" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>

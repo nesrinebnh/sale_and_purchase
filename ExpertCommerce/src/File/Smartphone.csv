@@ -1,0 +1,5 @@
+Model/String,Mark/String,CPU/String,RAM/double,ROM/double,Baterry/double,Screen/String,Fingerprint/String,Size/double,price/double
+Galaxy S20,Samsung,Snapdragon 865,16,512,5000,Dynamic AMOLED,under-display,6.9,52000
+Galaxy S8,Samsung,Snapdragon 835,4,64,3000,Super AMOLED,rear-mounted,5.8,48254
+Galaxy Fold,Samsung,Snapdragon 855,12,512,4380,Dynamic AMOLED,side-mounted,7.3,32548
+IPhone 11 Por MAx,Apple,A13 Bionic,4,512,3969,Super Retina,no,6.5,54702
